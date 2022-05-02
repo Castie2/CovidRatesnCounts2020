@@ -104,6 +104,7 @@
 
 
         async function geojsonFetch() {
+
             let response = await fetch('assets/CovidRates2020.geojson');
             //let response
             let stateData = await response.json();
@@ -138,13 +139,13 @@
             // add legend
             map.addSource('CovidRates2020', { // TODO:change here to "name": "CovidRates2020",
                 type: 'geojson',
-                data: '# github.io-CovidRatesnCounts2020/map1.html/CovidRates2020.geojson' // change the data we want here
+                data: 'assets/CovidRates2020.geojson' // change the data we want here
             });
 
             map.addLayer({
                 'id': 'CovidRates2020',
                 'type': 'fill',
-                'source': 'CovidRates2020',
+                'source': 'assets/CovidRates2020.geojson',
                 'paint': {
                     'fill-color': [
                         'step',

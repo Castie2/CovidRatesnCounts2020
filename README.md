@@ -1,5 +1,5 @@
 # github.io-CovidRatesnCounts2020
-This projet is aboud Covid Rates and Counts in the year 2020.
+This project is aboud Covid Rates and Counts in the year 2020.
 [Map 1]](github.io-CovidRatesnCounts2020/map1.html) depicts Covid counts ranging from 100 to 30000 in points.
 ![MAP 1 COUNTS](/img/Map1.png)
 
