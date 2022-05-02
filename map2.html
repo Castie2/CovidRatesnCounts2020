@@ -145,7 +145,7 @@
             map.addLayer({
                 'id': 'CovidRates2020',
                 'type': 'fill',
-                'source': 'assets/CovidRates2020.geojson',
+                'source': 'CovidRates2020',
                 'paint': {
                     'fill-color': [
                         'step',
@@ -171,15 +171,7 @@
                 }
 
             });
-            /* // added a onclick function but wouldnt word
-            map.on('click', 'CovidRates2020', (event) => {
-                new mapboxgl.Popup()
-                    .setLngLat(event.features[0].geometry.coordinates)
-                    .setHTML(
-                        `<strong>Rates:</strong> ${event.features[0].properties.rates}`
-                    ) //name and input
-                    .addTo(map);
-            });*/
+
 
 
 
